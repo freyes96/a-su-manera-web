@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '/public/ASuManera-Logo.png';
 
 export default function Hero() {
   return (
@@ -7,7 +6,7 @@ export default function Hero() {
       {/* Sticky logo */}
       <div className="sticky top-0 z-50 bg-[#4d0f0f] flex justify-center items-center py-10">
         <img
-          src={logo}
+          src="/ASuManera-Logo.png"
           alt="A Su Manera Logo"
           className="w-[800px] max-w-full"
         />
